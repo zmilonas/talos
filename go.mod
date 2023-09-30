@@ -7,7 +7,7 @@ replace (
 	github.com/siderolabs/talos/pkg/machinery => ./pkg/machinery
 
 	// see https://github.com/vmware-tanzu/sonobuoy/pull/1933
-	github.com/vmware-tanzu/sonobuoy => github.com/smira/sonobuoy v0.0.0-20230925141431-e9307f0a884d
+	github.com/vmware-tanzu/sonobuoy => github.com/smira/sonobuoy v0.0.0-20230615061941-1efd8d7a09e3
 
 	// forked go-yaml that introduces RawYAML interface, which can be used to populate YAML fields using bytes
 	// which are then encoded as a valid YAML blocks with proper indentiation
@@ -41,7 +41,7 @@ require (
 	github.com/containernetworking/cni v1.1.2
 	github.com/containernetworking/plugins v1.3.0
 	github.com/coreos/go-iptables v0.7.0
-	github.com/cosi-project/runtime v0.3.9
+	github.com/cosi-project/runtime v0.3.10
 	github.com/docker/distribution v2.8.2+incompatible
 	github.com/docker/docker v24.0.6+incompatible
 	github.com/docker/go-connections v0.4.0
@@ -62,7 +62,7 @@ require (
 	github.com/google/go-tpm v0.9.0
 	github.com/google/nftables v0.1.0
 	github.com/google/uuid v1.3.1
-	github.com/gopacket/gopacket v1.1.2-0.20230910070655-0d0aa7b3b2d7
+	github.com/gopacket/gopacket v1.1.2-0.20230926021218-ce66cf7026f1
 	github.com/gosuri/uiprogress v0.0.1
 	github.com/grpc-ecosystem/go-grpc-middleware v1.4.0
 	github.com/hashicorp/go-cleanhttp v0.5.2
@@ -81,8 +81,8 @@ require (
 	github.com/mdlayher/netx v0.0.0-20230430222610-7e21880baee8
 	github.com/nberlee/go-netstat v0.1.2
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/opencontainers/image-spec v1.1.0-rc4
-	github.com/opencontainers/runtime-spec v1.1.0-rc.1
+	github.com/opencontainers/image-spec v1.1.0-rc5
+	github.com/opencontainers/runtime-spec v1.1.0
 	github.com/packethost/packngo v0.30.0
 	github.com/pelletier/go-toml v1.9.5
 	github.com/pin/tftp v2.1.0+incompatible

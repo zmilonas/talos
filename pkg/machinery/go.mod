@@ -9,14 +9,14 @@ replace gopkg.in/yaml.v3 => github.com/unix4ever/yaml v0.0.0-20220527175918-f17b
 require (
 	github.com/blang/semver/v4 v4.0.0
 	github.com/containerd/go-cni v1.1.9
-	github.com/cosi-project/runtime v0.3.9
+	github.com/cosi-project/runtime v0.3.10
 	github.com/dustin/go-humanize v1.0.1
 	github.com/evanphx/json-patch v5.7.0+incompatible
 	github.com/ghodss/yaml v1.0.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/jsimonetti/rtnetlink v1.3.5
 	github.com/mdlayher/ethtool v0.1.0
-	github.com/opencontainers/runtime-spec v1.1.0-rc.1
+	github.com/opencontainers/runtime-spec v1.1.0
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/siderolabs/crypto v0.4.1
 	github.com/siderolabs/gen v0.4.7
